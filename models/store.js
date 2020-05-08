@@ -4,18 +4,26 @@
 module.exports = function (sequelize, DataTypes) {
     var Store = sequelize.define('Store', {
         id: {
-            type: Sequelize.INTEGER,
+            type: DataTypes.INTEGER,
             autoIncrement: true,
-            allowNull: false
+            allowNull: false,
+            primaryKey: true
         },
         store_name: {
-            type: Sequelize.STRING
+            type: DataTypes.STRING
+        },
+        store_address: {
+            type: DataTypes.STRING
         },
         uniqueID: {
-            type: Sequelize.STRING
+            type: DataTypes.STRING,
+            unique: true
         },
         availability: {
-            type: Sequelize.INTEGER
+            type: DataTypes.INTEGER
+        },
+        longlat: {
+            type: DataTypes.STRING
         }
     
     });

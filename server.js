@@ -3,15 +3,19 @@ var express = require("express");
 var session = require("express-session");
 var exphbs = require("express-handlebars");
 // Requiring passport as we've configured it
-var passport = require("./config/passport");
 require('dotenv').config();
+var passport = require("./config/passport");
+
+
+
+// Creating express app and configuring middleware needed for authentication
+var app = express();
 
 // Setting up port and requiring models for syncing
 var PORT = process.env.PORT || 8080;
 var db = require("./models");
 
-// Creating express app and configuring middleware needed for authentication
-var app = express();
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
