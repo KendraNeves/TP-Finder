@@ -1,14 +1,41 @@
-TP-Finder
-
 # TP-Finder
 
 Full-stack app used to track toilet paper supplies in local stores during Covid-19 pandemic. Utilizing a SQL Database to store crowd-sourced user input, the app generates a map with clear visual markers displaying the toilet paper stock in the user's surrounding area.
 
 ## [Try It Out!](vast-sierra-58831.herokuapp.com)
+***
+
+## Table of Contents
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+- [Built With](#built-with)
+- [Contributors](#contributors)
+
+
 
 # Demo
 
-![Homepage, img](public/img/README/homepage.PNG)
+This is the **Homepage**, this is what will appear when you first open the app:
+
+![Homepage](public/img/README-img/homepage.PNG)
+
+If you scroll down on the **homepage** you can see a carousel of our _glowing_ user reviews:
+
+![User Reviews](public/img/README-img/carousel-1.PNG)
+
+If you'd like to see toilet paper stock in your area, click the toilet paper cartoon with "Click Me" below it. You'll be redirected to the **map** page:
+![Map page]()
+
+Click on any pin on the map and details about that location will be displayed:
+![Pin Modal]()
+
+If you're a local store owner with an access key (demo key is "123"), go to *sign-up* page, then proceed to the *login* page to login:
+
+![Login Page](public\img\README-img\login.PNG)
+
+Once logged in, you can add toilet paper stock information to your respective company
+
+![Add TP Stock]()
 
 # Getting Started
 
