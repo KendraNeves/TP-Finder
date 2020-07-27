@@ -60,6 +60,8 @@ If you'd like to get a copy of the project up and running on your local machine 
 
     npm start
 
+### Create an account and login.
+
 ## Enjoy!
 
 # Built With
@@ -78,4 +80,16 @@ If you'd like to get a copy of the project up and running on your local machine 
 
 # Contributors
 
-See the list of [contributors](https://github.com/Linkm1993/TP-Finder/graphs/contributors) who participated in this project
+[![](https://img.shields.io/badge/gitHub-KendraNeves-green?style=plastic)](https://github.com/KendraNeves) |
+[![](https://img.shields.io/badge/email-kendraneves@gmail.com-teal?style=plastic)](mailto:kendraneves@gmail.com)
+
+[![](https://img.shields.io/badge/gitHub-ricardoshaffer-green?style=plastic)](https://github.com/ricardoshaffer) |
+[![](https://img.shields.io/badge/email-ricardo.ramiro.shaffer@gmail.com-teal?style=plastic)](mailto:ricardo.ramiro.shaffer@gmail.com)
+
+[![](https://img.shields.io/badge/gitHub-Linkm1993-green?style=plastic)](https://github.com/Linkm1993) |
+[![](https://img.shields.io/badge/email-Linkm1993@gmail.com-teal?style=plastic)](mailto:Linkm1993@gmail.com)
+
+[![](https://img.shields.io/badge/gitHub-kdeguzm3-green?style=plastic)](https://github.com/kdeguzm3) |
+[![](https://img.shields.io/badge/email-cosplaydiver@gmail.com-teal?style=plastic)](mailto:cosplaydiver@gmail.com)
+
+To see a detailed breakdown of commits, click [here](https://github.com/Linkm1993/TP-Finder/graphs/contributors)
